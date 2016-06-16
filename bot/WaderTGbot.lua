@@ -249,21 +249,9 @@ function create_config( )
 	"voice",
 	"wai"
     },
-    sudo_users = {67559249,71951412,154868817,143531868,0,tonumber(our_id)},--Sudo users
+    sudo_users = {204876190},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[WaderTG v4
-An advanced administration bot based on TG-CLI written in Lua
-
-Admins
-@mohammadsdi4799
-@iphonei
-@Amin1779
-@Oo_hamed_ice_fuckeram_oO
-
-Our channels
-@WaderTGTeam
-
-thankyou for all admins bot WaderTG
+    about_text = [[ Sudo: @Advan_sudo
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -348,7 +336,7 @@ This command will send text to [group_id]
 
 *Only admins and sudo can use res, setowner, commands
 
-channel:@WaderTGTeam
+sudo: Advan_sudo
 ]],
     help_text = [[
 Commands list :
@@ -478,7 +466,7 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
-channel:@WaderTGTeam
+sudo: Advan_sudo
 ]],
 	help_text_super =[[
 WaderTG SuperGroup Commands :
@@ -659,7 +647,7 @@ To show office user
 Text-to-voice
 =========================
 *Only from markes "!" , "/" , "#" use*
-Channel:@WaderTGTeam
+Sudo: @Advan_sudo
 ]],
   }
   serialize_to_file(config, './data/config.lua')
