@@ -336,7 +336,7 @@ This command will send text to [group_id]
 
 *Only admins and sudo can use res, setowner, commands
 
-sudo: Advan_sudo
+sudo: @Advan_sudo
 ]],
     help_text = [[
 Commands list :
@@ -466,10 +466,10 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
-sudo: Advan_sudo
+sudo: @Advan_sudo
 ]],
 	help_text_super =[[
-WaderTG SuperGroup Commands :
+#Help:
 =========================
 #info
 About the SuperGroup info
